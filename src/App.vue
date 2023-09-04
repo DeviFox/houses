@@ -2,12 +2,20 @@
 
 <template>
 	<div class="container">
-		<search/>
+		<Header/>
 		<div class="catalog">
-			<product-card/>
+			<ProductCard/>
 		</div>
 	</div>
 </template>
 
-<style scoped>
+<style lang="scss">
+body {
+	background-color: #e7ecef;
+}
+
+.container {
+	max-width: 1280px;
+	margin:    0 auto;
+}
 </style>

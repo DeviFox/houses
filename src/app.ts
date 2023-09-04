@@ -1,8 +1,9 @@
 import ProductCard from './components/product-card/product-card.vue';
-import Search from './components/search/search.vue';
+import Header from './components/header/header.vue';
+
 export default {
-	components:  {
-		Search,
+	components: {
+		Header,
 		ProductCard,
 	},
 	setup() {

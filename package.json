@@ -9,8 +9,9 @@
     "build-only": "vite build"
   },
   "dependencies": {
+    "@vueuse/core": "^10.4.1",
     "pinia": "^2.1.4",
-    "sass": "^1.64.2",
+    "sass": "^1.66.1",
     "vue": "^3.3.4"
   },
   "devDependencies": {
