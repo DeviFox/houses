@@ -27,6 +27,12 @@
 		margin-right:    80px;
 		align-items:     center;
 		justify-content: center;
+		transition:      0.2s;
+
+		&:hover {
+			transition: 0.2s;
+			color:      #e7ecef;
+		}
 	}
 }
 

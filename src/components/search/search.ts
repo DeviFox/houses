@@ -10,9 +10,8 @@ export default {
 		const suggests     = reactive(['wooden house', 'super house', 'extra house', 'summer house']);
 		const target = ref(null)
 
-		onClickOutside(target, (event) =>  {
+		onClickOutside(target, () =>  {
 			showSuggests.value = false;
-			console.log(event)
 		})
 
 

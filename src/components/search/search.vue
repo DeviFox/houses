@@ -19,7 +19,7 @@
 	&-input {
 		border-radius:    8px;
 		height:           45px;
-		width:            800px;
+		width:            600px;
 		border:           none;
 		outline:          none;
 		font-size:        20px;
@@ -37,13 +37,13 @@
 		position:                   absolute;
 		display:                    flex;
 		flex-direction:             column;
-		width:                      800px;
+		width:                      600px;
 		height:                     auto;
 		border-bottom-left-radius:  8px;
 		border-bottom-right-radius: 8px;
 		background-color:           #a3cef1;
-		top:                        40px;
-		transition:                 0.5s;
+		top:                        45px;
+		transition:                 0.2s;
 
 
 		&__item {
@@ -59,7 +59,7 @@
 			}
 
 			&:hover {
-				transition:       0.5s;
+				transition:       0.2s;
 				background-color: #6096ba;
 			}
 		}
